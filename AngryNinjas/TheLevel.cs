@@ -1,13 +1,8 @@
 using System;
 using Microsoft.Xna.Framework;
-using Box2D;
-using Box2D.Collision;
 using Box2D.Collision.Shapes;
 using Box2D.Common;
 using Box2D.Dynamics;
-using Box2D.Dynamics.Contacts;
-using Box2D.Dynamics.Joints;
-
 using Cocos2D;
 
 namespace AngryNinjas

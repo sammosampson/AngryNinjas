@@ -1,13 +1,4 @@
-using System;
-
-using Box2D;
-using Box2D.Collision;
-using Box2D.Collision.Shapes;
-using Box2D.Common;
 using Box2D.Dynamics;
-using Box2D.Dynamics.Contacts;
-using Box2D.Dynamics.Joints;
-
 using Cocos2D;
 
 namespace AngryNinjas
@@ -21,8 +12,7 @@ namespace AngryNinjas
 		
 		public CCSprite Sprite { get { return sprite; } }
 
-		protected void CreateBodyWithSpriteAndFixture (b2World world, b2BodyDef bodyDef,
-		                                               b2FixtureDef fixtureDef, string spriteName)
+		protected void CreateBodyWithSpriteAndFixture (b2World world, b2BodyDef bodyDef, b2FixtureDef fixtureDef, string spriteName)
 		{
 			// this is the meat of our class, it creates (OR recreates) the body in the world with the body definition, fixture definition and sprite name
 			
